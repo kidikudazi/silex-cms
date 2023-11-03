@@ -36,7 +36,6 @@ class CreateUserRolesTable extends Migration
             "page_builder" => true,
             "site_settings" => true
         ]];
-
         # create default data
         DB::table('user_roles')->insert([
             'user_id'=>1,
